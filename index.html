@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Intel Sustainability Journey</title>
+
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+rel="stylesheet">
 
 <link rel="stylesheet" href="style.css">
 
@@ -12,6 +16,10 @@
 href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap"
 rel="stylesheet"
 />
+
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 </head>
 
@@ -47,14 +55,34 @@ Timeline
 </li>
 
 <li>
+<a href="#priorities">
+Priorities
+</a>
+</li>
+
+<li>
 <a href="#impact">
 Impact
+</a>
+</li>
+
+<li>
+<a href="#subscription">
+Subscription
+</a>
+</li>
+
+<li>
+<a href="#faq-section">
+FAQs
 </a>
 </li>
 
 </ul>
 
 </nav>
+
+<!-- HEADER -->
 
 <header id="home" class="hero">
 
@@ -79,6 +107,8 @@ Explore Timeline ↓
 </header>
 
 <main>
+
+<!-- TIMELINE -->
 
 <section id="timeline-section">
 
@@ -358,6 +388,96 @@ semiconductor manufacturing.
 
 </section>
 
+<!-- Sustainability Prioities (bootstrap 3-column) -->
+
+<section id="priorities" class="priorities">
+
+<div class="container">
+
+<h2 class="section-title">
+Our Sustainability Priorities
+</h2>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+
+<div class="sustain-card h-100">
+
+<i class="bi bi-globe-americas fs-1"></i>
+
+<h3>
+Climate Action
+</h3>
+
+<p>
+Intel works to reduce greenhouse gas emissions
+through renewable energy investments and
+energy-efficient manufacturing.
+</p>
+
+<a href="#">
+Learn More →
+</a>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="sustain-card h-100">
+
+<i class="bi bi-droplet fs-1"></i>
+
+<h3>
+Water Stewardship
+</h3>
+
+<p>
+Intel invests in water conservation and
+restoration projects to protect critical
+water resources worldwide.
+</p>
+
+<a href="#">
+Learn More →
+</a>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="sustain-card h-100">
+
+<i class="bi bi-recycle fs-1"></i>
+
+<h3>
+Waste Reduction
+</h3>
+
+<p>
+Advanced manufacturing processes help
+reduce waste and support a more
+circular economy.
+</p>
+
+<a href="#">
+Learn More →
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
 <!-- IMPACT DASHBOARD -->
 
 <section id="impact" class="dashboard">
@@ -497,7 +617,178 @@ Source: Intel Sustainability Reports
 
 </section>
 
+<!-- Newsletter Subscription -->
+
+<section id="subscription" class="subscription">
+
+<div class="newsletter-container">
+
+<h2 class="section-title">
+Subscribe to Sustainability Updates
+</h2>
+
+<p class="newsletter-description">
+Stay informed about Intel's latest sustainability initiatives and goals.
+</p>
+
+<form class="newsletter-form">
+
+<div class="form-group">
+
+<input
+type="text"
+class="form-input"
+id="name"
+placeholder="Full Name"
+required>
+
+</div>
+
+<div class="form-group">
+
+<input
+type="email"
+class="form-input"
+id="email"
+placeholder="Email Address"
+required>
+
+</div>
+
+<button
+type="submit"
+class="subscribe-btn">
+Subscribe Now
+</button>
+
+<p class="form-note">
+We respect your privacy. Unsubscribe at any time.
+</p>
+
+</form>
+
+</div>
+
+</section>
+
+<!-- FAQ Section -->
+
+<section id="faq-section" class="faq-section">
+
+<h2 class="section-title">
+Frequently Asked Questions
+</h2>
+
+<div class="faq-accordion">
+
+<!-- FAQ Item 1 -->
+<div class="faq-item">
+
+<button class="faq-header">
+
+<div class="faq-icon">
+<i class="bi bi-graph-up-arrow"></i>
+</div>
+
+<div class="faq-title">
+<h3>What is Intel's RISE Strategy?</h3>
+</div>
+
+<div class="faq-toggle">
+<span></span>
+</div>
+
+</button>
+
+<div class="faq-content">
+
+<p>
+RISE stands for Responsible, Inclusive, Sustainable, and Enabling.
+It guides Intel's commitment to creating positive impact on society
+and the environment through responsible innovation and sustainability.
+</p>
+
+</div>
+
+</div>
+
+<!-- FAQ Item 2 -->
+<div class="faq-item">
+
+<button class="faq-header">
+
+<div class="faq-icon">
+<i class="bi bi-globe2"></i>
+</div>
+
+<div class="faq-title">
+<h3>What does Net-Zero mean?</h3>
+</div>
+
+<div class="faq-toggle">
+<span></span>
+</div>
+
+</button>
+
+<div class="faq-content">
+
+<p>
+Net-zero means balancing greenhouse gas emissions produced with emissions
+removed or offset through environmental initiatives. Intel has committed
+to achieving net-zero emissions globally by 2040.
+</p>
+
+</div>
+
+</div>
+
+<!-- FAQ Item 3 -->
+<div class="faq-item">
+
+<button class="faq-header">
+
+<div class="faq-icon">
+<i class="bi bi-tree-fill"></i>
+
+</div>
+
+<div class="faq-title">
+<h3>How does Intel reduce emissions?</h3>
+</div>
+
+<div class="faq-toggle">
+<span></span>
+</div>
+
+</button>
+
+<div class="faq-content">
+
+<p>
+Intel invests in renewable energy, efficient manufacturing processes, and
+advanced emission reduction technologies. These efforts lower operational
+impact across all global facilities and support long-term sustainability.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="tips-button-container">
+<button class="btn btn-primary tips-btn">
+    <i class="bi bi-lightbulb-fill"></i>
+    View Sustainability Tips
+</button>
+</div>
+
+</section>
+
 </main>
+
+<!-- Footer -->
 
 <footer class="footer">
 
@@ -521,10 +812,46 @@ from Intel sustainability reports.
 
 </div>
 
+<div class="footer-links">
+
+<a href="#">
+Privacy Policy
+</a>
+
+<a href="#">
+Terms of Use
+</a>
+
+<a href="#">
+Contact
+</a>
+
+</div>
+
 </footer>
 
 <!-- Back to top button (appears when scrolled to page end) -->
 <button id="backToTop" aria-label="Back to top">↑</button>
+
+<script>
+// FAQ Accordion functionality
+document.querySelectorAll('.faq-header').forEach(header => {
+	header.addEventListener('click', function() {
+		const faqItem = this.closest('.faq-item');
+		const isActive = faqItem.classList.contains('active');
+		
+		// Close all FAQ items
+		document.querySelectorAll('.faq-item').forEach(item => {
+			item.classList.remove('active');
+		});
+		
+		// Open the clicked item if it wasn't active
+		if (!isActive) {
+			faqItem.classList.add('active');
+		}
+	});
+});
+</script>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
@@ -545,6 +872,41 @@ document.addEventListener('DOMContentLoaded', function() {
 		btn.classList.remove('visible');
 	});
 });
+</script>
+
+<script>
+function updateDirection() {
+
+const rtlLanguages = [
+'ar',
+'he',
+'fa',
+'ur'
+];
+
+const pageLanguage =
+document.documentElement.lang;
+
+if (rtlLanguages.includes(pageLanguage)) {
+
+document.documentElement.dir = 'rtl';
+
+} else {
+
+document.documentElement.dir = 'ltr';
+
+}
+
+}
+
+const observer = new MutationObserver(updateDirection);
+
+observer.observe(document.documentElement, {
+attributes: true,
+attributeFilter: ['lang']
+});
+
+updateDirection();
 </script>
 
 </body>
